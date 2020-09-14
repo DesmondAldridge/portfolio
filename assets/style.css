@@ -1,9 +1,5 @@
 body {
-    background: url(./images/bgd-gif1.GIF)no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url(./images/bgd-gif1.GIF)
 }
 
 /*NAVBAR*/
@@ -20,7 +16,7 @@ body {
     font-family: 'Tech Slanted Font';
     font-size: 45px;
     font-weight: bolder;
-    margin-top: .5%;
+    margin-top: .7%;
     margin-left: 2%;
     opacity: 90%;
 
@@ -46,8 +42,8 @@ body {
 
     font-family: 'Tech Slanted Font';
     font-weight: bolder;
-    font-size: 20px;
-    margin-top: 1.2%;
+    font-size: 21px;
+    margin-top: 1.5%;
     margin-left: 1.6%;
     opacity: 90%;
 
@@ -68,23 +64,239 @@ body {
     src: url('./CfTechnoramaRegular-X2xg.ttf')
 }
 
-@media only screen and (max-width: 1000px) {
-    #mainNav {
-        margin-top: 15%;
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 1230px) {
+    body{
+    background: url(./images/bgd-gif1.GIF)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+}
+
+
+@media only screen and (max-width: 1800px) {
+    .pages{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .pages{
+        font-size: 17px;
+    }
+        .titleLogo{
+        margin-top: 1%;
+        font-size: 43px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .pages{
+        margin-top: 1.7%;
+        font-size: 16px;
     }
 
 }
 
+@media only screen and (max-width: 1450px) {
+    #pgOptions{
+        margin-left: 50%;
+    }
+    .pages{
+        font-size: 15px;
+    }
+    .titleLogo{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .pages{
+        font-size: 14px;
+    }
+    .titleLogo{
+        font-size: 38px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    #pgOptions{
+        margin-left: 52%;
+    }
+    .pages{
+        margin-top: 1.8%;
+        font-size: 12px;
+    }
+    .titleLogo{
+        margin-top: 1.3%;
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+
+    body {
+        background-image: url(./images/bgd-gif1.GIF);
+        background-size: 1200px 1800px;
+    }
+    #pgOptions{
+        margin-left: 50%;
+
+    }
+
+    .titleLogo{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    #titleDiv {
+        font-size: 48px;
+        margin-left: 12%;
+    }
+}
+
+@media only screen and (max-width: 865px) {
+
+    #titleDiv {
+        margin-left: 10%;
+    }
+}
+
 @media only screen and (max-width: 800px) {
-    #mainNav {
-        margin-top: 20%;
+
+    #titleDiv {
+        margin-left: 8%;
+    }
+}
+
+@media only screen and (max-width: 726px) {
+
+    #titleDiv {
+        margin-left: 6%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    #titleDiv {
+        margin-left: 4%;
+    }
+}
+
+@media only screen and (max-width: 683px) {
+
+    #titleDiv {
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+
+    #titleDiv {
+        margin-left: 0%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #titleDiv {
+        font-size: 45px;
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+    #titleDiv {
+        font-size: 40px;
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+
+    #titleDiv {
+        font-size: 37px;
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 474px) {
+
+    #titleDiv {
+        font-size: 35px;
+        margin-left: 2%;
+    }
+
+    #rsst5 {
+        position: absolute;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    #titleDiv {
+        font-size: 30px;
+        margin-left: 2%;
     }
 
 }
 
-@media only screen and (max-width: 800px) {
-    #mainNav {
-        margin-top: 20%;
+
+@media only screen and (max-width: 390px) {
+
+    #titleDiv {
+        font-size: 25px;
+        margin-left: 8%;
     }
 
+    #coverPhoto {
+        margin-left: 20%;
+    }
+
+    #mediaBtnDiv {
+        position: relative;
+        visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    #titleDiv {
+        font-size: 25px;
+        margin-left: 6%;
+    }
+
+    #coverPhoto {
+        margin-left: 18%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+
+    #titleDiv {
+        font-size: 20px;
+        margin-left: 6%;
+    }
+
+    #coverPhoto {
+        margin-left: 15%;
+    }
+
+    #buttonDiv {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    #buttonDiv2 {
+        position: relative;
+        visibility: visible;
+    }
 }
