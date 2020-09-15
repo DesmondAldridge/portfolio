@@ -8,6 +8,8 @@
     <!-- STYLES -->
     <!-- Bootstrap's bootstraps... -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- W3 Schools -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Meyerweb reset -->
     <link rel="stylesheet" href="./assets/reset.css">
     <!-- Extra styles... -->
@@ -25,11 +27,41 @@
 <div id="navContent" class="row">
 <a class="titleLogo">Desmond Aldridge</a>
   <a id="pgOptions"></a>
-    <a id="aboutMe" class="pages">About Me</a>
-    <a id="portfolio" class="pages">Portfolio</a>
-    <!-- <a id="pastExp" class="pages">Past Experience</a> -->
-    <a id="contact" class="pages">Contact</a>
+    <a id="aboutMe" onclick="document.getElementById('aboutMeModal').style.display='block'" class="pages">About Me</a>
+    <a id="portfolio" data-toggle="modal" data-target="#"  class="pages">Portfolio</a>
+    <a id="contact" data-toggle="modal" data-target="#"  class="pages">Contact</a>
 </div>
+
+<div id="aboutMeModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div>
+        <span onclick="document.getElementById('aboutMeModal').style.display='none'"
+        class="w3-button w3-display-topright">&times;</span>
+        <p>Some text in the Modal..</p>
+        <p>Some text in the Modal..</p>
+      </div>
+    </div>
+  </div>
+
+<!-- <div class="modal fade" id="aboutMeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
 
 
     

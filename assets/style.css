@@ -64,6 +64,13 @@ body {
     src: url('./CfTechnoramaRegular-X2xg.ttf')
 }
 
+/*MODALS*/
+/* #aboutMeModal {
+    margin-left: 14%;
+    margin-right: 60%;
+
+} */
+
 
 /*MEDIA QUERIES*/
 /*Full screen background cover*/
@@ -194,13 +201,14 @@ body {
 @media only screen and (max-width: 400px) {
     body {
         background-image: url(./images/bgd-gif1.GIF);
-        background-size: 801px 1740px;
+        background-size: 400px 1200px;
     }
     #pgOptions {
         margin-left: 15%;
     }
     .pages {
         margin-top: 9%;
+        margin-left: 2.5%;
         font-size: 10px;
     }
     .titleLogo{
