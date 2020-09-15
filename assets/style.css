@@ -65,6 +65,9 @@ body {
 }
 
 /*MODALS*/
+.aboutMeTab {
+    display: none;
+}
 /* #aboutMeModal {
     margin-left: 14%;
     margin-right: 60%;
