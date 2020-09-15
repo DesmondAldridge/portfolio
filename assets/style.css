@@ -65,14 +65,34 @@ body {
 }
 
 /*MODALS*/
+.modalShape {
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(156, 156, 156), rgb(255, 255, 255), rgb(255, 255, 255), rgb(119, 163, 214));
+  
+}
 .aboutMeTab {
     display: none;
 }
-/* #aboutMeModal {
-    margin-left: 14%;
-    margin-right: 60%;
 
-} */
+.headerBgd {
+    margin: .1%;
+    background-image: url(./images/background-img-3.png);
+    border-radius: 25px;
+}
+
+.currentTab {
+    margin: .1%;
+    background-image: url(./images/background-img-3.png);
+    background-size: 1000px 50px;
+    border-radius: 25px;
+}
+
+.closeBtn {
+    margin: .1%;
+    background-image: url(./images/bgd-gif1.GIF);
+    background-size: 100px 30px;
+    border-radius: 25px;
+}
 
 
 /*MEDIA QUERIES*/
