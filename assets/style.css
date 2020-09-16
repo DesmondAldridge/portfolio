@@ -91,7 +91,7 @@ body {
 .headerBgd {
     margin: .1%;
     background-image: url(./images/bgd-gif2.GIF);
-    background-size: 1000px 65px;
+    background-size: 300px 65px;
     /* background-image: linear-gradient(rgb(156, 156, 156),  rgb(255, 255, 255), rgb(119, 163, 214)); */
     border-radius: 25px;
 
@@ -101,7 +101,7 @@ body {
     margin: .1%;
     background-image: url(./images/bgd-gif2.GIF);
     /* background-image: linear-gradient(rgb(156, 156, 156), rgb(255, 255, 255), rgb(119, 163, 214)); */
-    background-size: 1000px 65px;
+    background-size: 300px 65px;
     border-radius: 25px;
 }
 
