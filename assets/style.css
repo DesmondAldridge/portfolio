@@ -74,6 +74,10 @@ body {
 }
 .theTab {
     display: none;
+    color: skyblue;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 1%;
 }
 /* 
 .portfolioTab {
