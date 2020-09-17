@@ -158,7 +158,17 @@ button {
     background: -webkit-linear-gradient(rgb(83, 83, 83), rgb(158, 158, 158),rgb(124, 202, 255), rgb(15, 159, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}     
+}
+
+h1 {
+    font-family: 'Tech Slanted Font';
+    font-size: 16px;
+    font-weight: bolder;
+
+    background: -webkit-linear-gradient(rgb(83, 83, 83), rgb(158, 158, 158),rgb(124, 202, 255), rgb(15, 159, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}  
 
     
 button:hover {
