@@ -82,14 +82,10 @@ body {
 .bioPhoto {
     margin-left: 6.6%;
 }
-/* 
-.portfolioTab {
-    display: none;
-}
 
-.contactTab {
-    display: none;
-} */
+#photoWrap {
+    margin-left: 7%;
+}
 
 .headerBgd {
     margin: .1%;
@@ -150,10 +146,10 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.btnFont {
+button {
     font-family: 'Tech Slanted Font';
     font-size: 16px;
-    /* font-weight: bolder; */
+    font-weight: bolder;
 
     background: -webkit-linear-gradient(rgb(83, 83, 83), rgb(158, 158, 158),rgb(124, 202, 255), rgb(15, 159, 255));
     -webkit-background-clip: text;
@@ -177,6 +173,11 @@ button:hover {
     -webkit-text-fill-color: transparent;
 }
 
+/*LOGO BUTTONS*/
+#imdbBtn {
+    border-radius: 25px;
+    margin-left: 40%;
+}
 
 
 /*MEDIA QUERIES*/
@@ -308,7 +309,7 @@ button:hover {
 @media only screen and (max-width: 400px) {
     body {
         background-image: url(./images/bgd-gif1.GIF);
-        background-size: 400px 1200px;
+        background-size: 400px 900px;
     }
     #pgOptions {
         margin-left: 15%;
