@@ -83,6 +83,19 @@ body {
     margin-left: 6.6%;
 }
 
+.portfolioPhoto {
+    margin-left: 20%;
+}
+
+.navICON:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.iconDiv {
+    margin-top: .5%;
+    margin-bottom: .5%;
+}
+
 #photoWrap {
     margin-left: 7%;
 }
@@ -177,6 +190,11 @@ button:hover {
 #imdbBtn {
     border-radius: 25px;
     margin-left: 40%;
+}
+
+
+#imdbBtn:hover {
+    transform: scale(1.05, 1.05);
 }
 
 

@@ -134,7 +134,7 @@
    <br> 
    <p>Performance & commercial credits available upon request. And of course feel free to check out my credits on IMDB...</p>
    <br>
-   <img id="imdbBtn" src="./assets/images/imdb-logo.JPG" width="100px" height="50px" href="https://www.imdb.com/name/nm2108976/">
+   <img id="imdbBtn" src="./assets/images/imdb-logo.JPG" onclick="location.href = 'https://www.imdb.com/name/nm2108976/';" width="100px" height="50px">
   </div>
 
   <div class="w3-container currentTab w3-padding">
@@ -150,30 +150,50 @@
      <header class="w3-container headerBgd"> 
       <span onclick="document.getElementById('portfolioModal').style.display='none'" 
       class="xBtn w3-button headerBgd w3-xlarge w3-display-topright">x</span>
-      <h2>Header</h2>
+      <h2>PORTFOLIO</h2>
      </header>
    
      <div class="w3-bar w3-border-bottom">
+      <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'thisApp')">My Portfolio</button>
       <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'dailyPlanner')">Daily Planner</button>
-      <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'weatherApp')">Weather App</button>
       <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'project')">Foodies Unite!</button>
      </div>
    
-     <div id="dailyPlanner" class="w3-container theTab">
-      <h1>Daily Planner</h1>
-      <p>London is the most populous city in the United Kingdom, with a metropolitan area of over 9 million inhabitants.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+     <div id="thisApp" class="w3-container theTab">
+      <img class="portfolioPhoto" src="./assets/images/this-gif.GIF" width="500px" height="300px">
+      <br>
+      <br>
+      <h1>Programmer Portfolio</h1>
+      <div class="iconDiv">
+        <img class="navICON" src="./assets/images/github-logo.PNG" onclick="location.href = 'https://github.com/DesmondAldridge/portfolio';" width="45px" height="45px">
+        <img class="navICON" src="./assets/images/tech-logo.png" onclick="location.href = 'https://desmondaldridge.github.io/portfolio/';" width="50px" height="50px"> 
+      </div> 
+      <p>More projects coming soon! In the meantime, I'll include this site itself as an example of my work.</p> 
+      <br>
      </div>
    
-     <div id="weatherApp" class="w3-container theTab">
-      <h1>Weather App</h1>
-      <p>Paris is the capital of France.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+     <div id="dailyPlanner" class="w3-container theTab">
+      <img class="portfolioPhoto" src="./assets/images/dayPlannerByDes.gif" width="500px" height="300px">
+      <br>
+      <br>
+      <h1>Daily Planner</h1>
+      <div class="iconDiv">
+        <img class="navICON" src="./assets/images/github-logo.PNG" onclick="location.href = 'https://github.com/DesmondAldridge/work-day-scheduler';" width="45px" height="45px">
+        <img class="navICON" src="./assets/images/tech-logo.png" onclick="location.href = 'https://desmondaldridge.github.io/work-day-scheduler/';" width="50px" height="50px"> 
+      </div>
+      <p>This daily planner is designed for a standard work day, and allows you to write and save entries for any or all of the 8 time slots available (9am - 5pm).
+         The current hour is always highlighted and distinct from both upcoming and previous entries.</p>
      </div>
    
      <div id="project" class="w3-container theTab">
+        <img class="portfolioPhoto" src="./assets/images/foodies-unite.png" width="500px" height="300px">
       <h1>Foodies Unite!</h1>
-      <p>Tokyo is the capital of Japan.</p><br>
+      <div class="iconDiv">
+        <img class="navICON" src="./assets/images/github-logo.PNG" onclick="location.href = 'https://github.com/94Cooper94/foodiesUnite';" width="45px" height="45px">
+        <img class="navICON" src="./assets/images/tech-logo.png" onclick="location.href = 'https://94cooper94.github.io/foodiesUnite/';" width="50px" height="50px"> 
+      </div>
+      <p> This recipe generator was the first collaborative project I had a role in. I was responsible for the all JS involved in one of the third party APIs we utilized, including 
+          coding calculation functions, building the query URL for the AJAX call, the AJAX call itself and subsequent front end display of the pertinent data.</p>
      </div>
    
      <div class="w3-container currentTab w3-padding">
