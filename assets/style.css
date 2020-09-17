@@ -84,7 +84,7 @@ body {
 }
 
 .portfolioPhoto {
-    margin-left: 20%;
+    margin-left: 19%;
 }
 
 .navICON:hover {
@@ -94,6 +94,11 @@ body {
 .iconDiv {
     margin-top: .5%;
     margin-bottom: .5%;
+    margin-left: 70%;
+}
+
+.contactIcon {
+    margin-left: 6.6%;
 }
 
 #photoWrap {
