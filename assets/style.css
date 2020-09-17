@@ -39,7 +39,6 @@ body {
 }
 
 .pages {
-
     font-family: 'Tech Slanted Font';
     font-weight: bolder;
     font-size: 21px;
@@ -67,17 +66,22 @@ body {
 /*MODALS*/
 .modalShape {
     border-radius: 25px;
-    background-image: url(./images/background-img-3.png);
+    background-image: url(./images/article-background.gif);
     /* background-image: linear-gradient(rgb(158, 158, 158), rgb(255, 255, 255), rgb(124, 202, 255), rgb(15, 159, 255)); */
-    background-size: 1000px 50px;
+    background-size: 1000px 1000px;
   
 }
 .theTab {
     display: none;
-    color: skyblue;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 1%;
+    color: rgb(160, 247, 253);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 4%;
+}
+
+.bioPhoto {
+    margin-left: 6.6%;
 }
 /* 
 .portfolioTab {
@@ -90,8 +94,8 @@ body {
 
 .headerBgd {
     margin: .1%;
-    background-image: url(./images/bgd-gif2.GIF);
-    background-size: 450px 65px;
+    background-image: url(./images/background.gif);
+    background-size: 450px 300px;
     /* background-image: linear-gradient(rgb(156, 156, 156),  rgb(255, 255, 255), rgb(119, 163, 214)); */
     border-radius: 25px;
 
@@ -99,9 +103,9 @@ body {
 
 .currentTab {
     margin: .1%;
-    background-image: url(./images/bgd-gif2.GIF);
+    background-image: url(./images/background.gif);
     /* background-image: linear-gradient(rgb(156, 156, 156), rgb(255, 255, 255), rgb(119, 163, 214)); */
-    background-size: 450px 65px;
+    background-size: 450px 300px;
     border-radius: 25px;
 }
 
@@ -111,7 +115,7 @@ body {
     font-weight: bolder;
     border-radius: 25px;
 
-    background: -webkit-linear-gradient(rgb(83, 83, 83), rgb(158, 158, 158),rgb(124, 202, 255), rgb(15, 159, 255));
+    background: -webkit-linear-gradient(rgb(63, 210, 255), rgb(83, 255, 255), rgb(83, 255, 255), rgb(255, 255, 255), rgb(83, 255, 255), rgb(83, 255, 255), rgb(63, 210, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -122,7 +126,13 @@ body {
     font-weight: bolder;
     border-radius: 25px;
 
-    background: -webkit-linear-gradient(rgb(83, 83, 83), rgb(158, 158, 158),rgb(124, 202, 255), rgb(15, 159, 255));
+    background: -webkit-linear-gradient(rgb(63, 210, 255), rgb(83, 255, 255), rgb(83, 255, 255), rgb(255, 255, 255), rgb(83, 255, 255), rgb(83, 255, 255), rgb(63, 210, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.xBtn:hover {
+    background: -webkit-linear-gradient(rgb(3, 0, 151), rgb(0, 60, 255), rgb(83, 255, 255), rgb(124, 144, 255), rgb(99, 15, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -137,7 +147,7 @@ h2 {
     font-size: 20px;
     font-weight: bolder;
 
-    background: -webkit-linear-gradient(rgb(3, 0, 151), rgb(0, 60, 255), rgb(83, 255, 255), rgb(124, 144, 255), rgb(99, 15, 255));
+    background: -webkit-linear-gradient(rgb(50, 98, 255), rgb(75, 117, 255), rgb(83, 255, 255), rgb(83, 255, 255), rgb(255, 255, 255), rgb(83, 255, 255), rgb(63, 210, 255), rgb(63, 210, 255), rgb(75, 117, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
