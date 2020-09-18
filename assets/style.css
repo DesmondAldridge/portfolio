@@ -105,6 +105,15 @@ body {
     margin-left: 7%;
 }
 
+/* #photoWrap {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.profPhoto {
+    width: inherit;
+    height: inherit;
+} */
+
 .headerBgd {
     margin: .1%;
     background-image: url(./images/background.gif);
@@ -303,6 +312,14 @@ button:hover {
     .titleLogo{
         margin-top: 1.5%;
         font-size: 30px;
+    }
+    #photoWrap {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .profPhoto {
+        width: inherit;
+        height: inherit;
     }
 }
 
