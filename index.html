@@ -82,7 +82,7 @@
   </div>
 
 
-<div id="pastExp" class="w3-container theTab">
+ <div id="pastExp" class="w3-container theTab">
     <div class="container">
     <img id="headerPhoto" class="profPhoto" src="./assets/images/about-me-images/gv-1.JPG" width="830px" height="300px">
     </div>
@@ -127,127 +127,135 @@
 
       <img class="profPhoto" src="./assets/images/about-me-images/cockpit.jpg" width="703px" height="400px">
     </div>
-</div>
-
-  <div id="cv" class="w3-container theTab">
-   <h1>Resume</h1>
-   <br>
-   <p>COMING SOON!</p>
-   <br> 
-   <p>Performance & commercial credits available upon request. And of course feel free to check out my credits on IMDB...</p>
-   <br>
-   <img id="imdbBtn" src="./assets/images/imdb-logo.JPG" onclick="location.href = 'https://www.imdb.com/name/nm2108976/';" width="100px" height="50px">
   </div>
 
-  <div class="w3-container currentTab w3-padding">
-   <button class="w3-button w3-right closeBtn w3-border" 
-   onclick="document.getElementById('aboutMeModal').style.display='none'">Close</button>
-  </div>
- </div>
-</div>
+    <div id="cv" class="w3-container theTab">
+    <h1>Resume</h1>
+    <br>
+    <p>COMING SOON!</p>
+    <br> 
+    <p>Performance & commercial credits available upon request. And of course feel free to check out my credits on IMDB...</p>
+    <br>
+    <img id="imdbBtn" src="./assets/images/imdb-logo.JPG" onclick="location.href = 'https://www.imdb.com/name/nm2108976/';" width="100px" height="50px">
+    </div>
 
-<!-- PORTFOLIO -->
-<div id="portfolioModal" class="w3-modal">
+    <div class="w3-container currentTab w3-padding">
+    <button class="w3-button w3-right closeBtn w3-border" 
+    onclick="document.getElementById('aboutMeModal').style.display='none'">Close</button>
+    </div>
+  </div>
+  </div>
+
+    <!-- PORTFOLIO -->
+    <div id="portfolioModal" class="w3-modal">
     <div class="w3-modal-content modalShape w3-animate-zoom">
-     <header class="w3-container headerBgd"> 
-      <span onclick="document.getElementById('portfolioModal').style.display='none'" 
-      class="xBtn w3-button headerBgd w3-xlarge w3-display-topright">x</span>
-      <h2>PORTFOLIO</h2>
-     </header>
-   
-     <div class="w3-bar w3-border-bottom">
-      <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'thisApp')">My Portfolio</button>
-      <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'dailyPlanner')">Daily Planner</button>
-      <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'project')">Foodies Unite!</button>
-     </div>
-   
-     <div id="thisApp" class="w3-container theTab">
-      <img class="portfolioPhoto" src="./assets/images/this-gif.GIF" width="530px" height="300px">
-      <br>
-      <div class="iconDiv">
-        <img class="navICON" src="./assets/images/github-blue.jpg" onclick="location.href = 'https://github.com/DesmondAldridge/portfolio';" width="45px" height="45px">
-        <img class="navICON" src="./assets/images/tech-logo.png" onclick="location.href = 'https://desmondaldridge.github.io/portfolio/';" width="50px" height="50px"> 
-      </div> 
-      <h1>Programmer Portfolio</h1>
-      <br>
-      <p>More projects coming soon! In the meantime, I'll include this site itself as an example of my work.</p> 
-      <br>
-     </div>
-   
-     <div id="dailyPlanner" class="w3-container theTab">
-      <img class="portfolioPhoto" src="./assets/images/dayPlannerByDes.gif" width="530px" height="300px">
-      <br>
-      <div class="iconDiv">
-        <img class="navICON" src="./assets/images/github-blue.jpg" onclick="location.href = 'https://github.com/DesmondAldridge/work-day-scheduler';" width="45px" height="45px">
-        <img class="navICON" src="./assets/images/tech-logo.png" onclick="location.href = 'https://desmondaldridge.github.io/work-day-scheduler/';" width="50px" height="50px"> 
+      <header class="w3-container headerBgd"> 
+        <span onclick="document.getElementById('portfolioModal').style.display='none'" 
+        class="xBtn w3-button headerBgd w3-xlarge w3-display-topright">x</span>
+        <h2>PORTFOLIO</h2>
+      </header>
+
+      <div class="w3-bar w3-border-bottom">
+        <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'thisApp')">My Portfolio</button>
+        <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'dailyPlanner')">Daily Planner</button>
+        <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'project')">Foodies Unite!</button>
       </div>
-      <h1>Daily Planner</h1>
-      <br>
-      <p>This daily planner is designed for a standard work day, and allows you to write and save entries for any or all of the 8 time slots available (9am - 5pm).
-         The current hour is always highlighted and distinct from both upcoming and previous entries.</p>
-     </div>
-   
-     <div id="project" class="w3-container theTab">
-        <img class="portfolioPhoto" src="./assets/images/foodies-unite.png" width="530px" height="300px">
-        <br>
-        <div class="iconDiv">
-            <img class="navICON" src="./assets/images/github-blue.jpg" onclick="location.href = 'https://github.com/94Cooper94/foodiesUnite';" width="45px" height="45px">
-            <img class="navICON" src="./assets/images/tech-logo.png" onclick="location.href = 'https://94cooper94.github.io/foodiesUnite/';" width="50px" height="50px"> 
-          </div>
-     <h1>Foodies Unite!</h1>
-        <br>
-      <p> This recipe generator was the first collaborative project I had a role in. I was responsible for the all JS involved in one of the third party APIs we utilized, including 
-          coding calculation functions, building the query URL for the AJAX call, the AJAX call itself and subsequent front end display of the pertinent data.</p>
-     </div>
-   
-     <div class="w3-container currentTab w3-padding">
-      <button class="w3-button w3-right closeBtn w3-border" 
-      onclick="document.getElementById('portfolioModal').style.display='none'">Close</button>
-     </div>
-    </div>
-   </div>
 
-<!-- CONTACT -->
-<div id="contactModal" class="w3-modal">
-    <div class="w3-modal-content modalShape w3-animate-zoom">
-     <header class="w3-container headerBgd"> 
-      <span onclick="document.getElementById('contactModal').style.display='none'" 
-      class="xBtn w3-button headerBgd w3-xlarge w3-display-topright">X</span>
-      <h2>CONTACT</h2>
-     </header>
-   
-     <div class="w3-bar w3-border-bottom">
-      <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'direct')">Direct</button>
-      <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'professional')">Professional</button>
-      <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'socialMedia')">Social Media</button>
-     </div>
-   
-     <div id="direct" class="w3-container theTab">
-      <h1>Direct</h1>
-      <br>
-      <p><b>EMAIL:</b> CURRENTLY N/A</p>
-      <p><b>PHONE:</b> CURRENTLY N/A</p>
-     </div>
-   
-     <div id="professional" class="w3-container theTab">
-      <h1>Professional</h1>
-      <br>
-      <img class="navICON contactICON" src="./assets/images/github-blue.jpg" onclick="location.href = 'https://github.com/DesmondAldridge';" width="100px" height="100px">
-      <img class="navICON contactICON" src="./assets/images/linkedin-logo.PNG" onclick="location.href = 'https://www.linkedin.com/in/desmond-aldridge-4917b61b1/';" width="150px" height="100px">
-     </div>
-   
-     <div id="socialMedia" class="w3-container theTab">
-      <h1>Social Media</h1>
-      <br>
-      <p> CURRENTLY N/A</p><br>
-     </div>
-   
-     <div class="w3-container currentTab w3-padding">
-      <button class="w3-button w3-right closeBtn w3-border" 
-      onclick="document.getElementById('contactModal').style.display='none'">Close</button>
-     </div>
+      <div id="thisApp" class="w3-container theTab">
+        <div class="demoPhotoWrap container">
+          <img class="portfolioPhoto" src="./assets/images/this-gif.GIF" width="530px" height="300px">
+        </div> 
+        <br>
+        <div class="iconDiv container">
+          <img class="navICON" src="./assets/images/github-blue.jpg" onclick="location.href = 'https://github.com/DesmondAldridge/portfolio';" width="45px" height="45px">
+          <img class="navICON" src="./assets/images/tech-logo.png" onclick="location.href = 'https://desmondaldridge.github.io/portfolio/';" width="50px" height="50px"> 
+        </div>
+        <h1>Programmer Portfolio</h1>
+        <br>
+        <p>More projects coming soon! In the meantime, I'll include this site itself as an example of my work.</p> 
+        <br>
+      </div>
+
+      <div id="dailyPlanner" class="w3-container theTab">
+        <div class="demoPhotoWrap container">
+          <img class="portfolioPhoto" src="./assets/images/dayPlannerByDes.gif" width="530px" height="300px">
+        </div>
+        <br>
+        <div class="iconDiv container">
+          <img class="navICON" src="./assets/images/github-blue.jpg" onclick="location.href = 'https://github.com/DesmondAldridge/work-day-scheduler';" width="45px" height="45px">
+          <img class="navICON" src="./assets/images/tech-logo.png" onclick="location.href = 'https://desmondaldridge.github.io/work-day-scheduler/';" width="50px" height="50px"> 
+        </div>
+        <h1>Daily Planner</h1>
+        <br>
+        <p>This daily planner is designed for a standard work day, and allows you to write and save entries for any or all of the 8 time slots available (9am - 5pm).
+            The current hour is always highlighted and distinct from both upcoming and previous entries.</p>
+        <br>
+      </div>
+
+      <div id="project" class="w3-container theTab">
+        <div class="demoPhotoWrap container">
+          <img class="portfolioPhoto" src="./assets/images/foodies-unite.png" width="530px" height="300px">
+        </div>
+        <br>
+        <div class="iconDiv container">
+          <img class="navICON" src="./assets/images/github-blue.jpg" onclick="location.href = 'https://github.com/94Cooper94/foodiesUnite';" width="45px" height="45px">
+          <img class="navICON" src="./assets/images/tech-logo.png" onclick="location.href = 'https://94cooper94.github.io/foodiesUnite/';" width="50px" height="50px"> 
+        </div>
+        <h1>Foodies Unite!</h1>
+        <br>
+        <p> This recipe generator was the first collaborative project I had a role in. I was responsible for the all JS involved in one of the third party APIs we utilized, including 
+            coding calculation functions, building the query URL for the AJAX call, the AJAX call itself and subsequent front end display of the pertinent data.</p>
+        <br>    
+      </div>
+
+      <div class="w3-container currentTab w3-padding">
+        <button class="w3-button w3-right closeBtn w3-border" 
+        onclick="document.getElementById('portfolioModal').style.display='none'">Close</button>
+      </div>
     </div>
-   </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div id="contactModal" class="w3-modal">
+  <div class="w3-modal-content modalShape w3-animate-zoom">
+    <header class="w3-container headerBgd"> 
+    <span onclick="document.getElementById('contactModal').style.display='none'" 
+    class="xBtn w3-button headerBgd w3-xlarge w3-display-topright">X</span>
+    <h2>CONTACT</h2>
+    </header>
+
+    <div class="w3-bar w3-border-bottom">
+    <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'direct')">Direct</button>
+    <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'professional')">Professional</button>
+    <button class="tablink w3-bar-item w3-button" onclick="openTab(event, 'socialMedia')">Social Media</button>
+    </div>
+
+    <div id="direct" class="w3-container theTab">
+    <h1>Direct</h1>
+    <br>
+    <p><b>EMAIL:</b> CURRENTLY N/A</p>
+    <p><b>PHONE:</b> CURRENTLY N/A</p>
+    </div>
+
+    <div id="professional" class="w3-container theTab">
+    <h1>Professional</h1>
+    <br>
+    <img class="navICON contactICON" src="./assets/images/github-blue.jpg" onclick="location.href = 'https://github.com/DesmondAldridge';" width="100px" height="100px">
+    <img class="navICON contactICON" src="./assets/images/linkedin-logo.PNG" onclick="location.href = 'https://www.linkedin.com/in/desmond-aldridge-4917b61b1/';" width="150px" height="100px">
+    </div>
+
+    <div id="socialMedia" class="w3-container theTab">
+    <h1>Social Media</h1>
+    <br>
+    <p> CURRENTLY N/A</p><br>
+    </div>
+
+    <div class="w3-container currentTab w3-padding">
+    <button class="w3-button w3-right closeBtn w3-border" 
+    onclick="document.getElementById('contactModal').style.display='none'">Close</button>
+    </div>
+  </div>
+</div>
 
 
 <!-- <div class="modal fade" id="aboutMeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">

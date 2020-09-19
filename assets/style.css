@@ -317,6 +317,20 @@ button:hover {
         margin-left: 1%;
         margin-right: 1%;
     }
+    .demoPhotoWrap {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .iconDiv {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .portfolioPhoto {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: inherit;
+        height: inherit;
+    }
     .profPhoto {
         width: inherit;
         height: inherit;
