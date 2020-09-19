@@ -1,40 +1,25 @@
-<body style="background-color: white;">
 
-# **Work Day Planner** <img src="./assets/image-status-passing.png" height="20">
-
-<center>
-<img src="./assets/dayPlannerByDes.gif">
+# **PROGRAMMER PORTFOLIO** <img src="./assets/image-status-passing.png" height="20">
 
 
-## Check out the deployed app <a href="https://desmondaldridge.github.io/work-day-scheduler/">here!</a>
+## Check out the deployed app <a href="https://desmondaldridge.github.io/portfolio/">here!</a>
 
-</center>
+<img src="./assets/demo-gif.GIF">
 
 ## <u>FEATURES</u>
 
-##### **BUILT WITH:**
-<ul>
-<li><a href="momentjs.com">MOMENT.JS</a> <img src="./assets/momentJS.png" width="20" height="20"></li>
-<li><a href="getbootstrap.com">BOOTSTRAP</a> <img src="./assets/bootstrap.png" width="20" height="20"></li>
-</ul>
+#### My current website featuring my portfolio as well as a brief bio and contact information.
 
-#### This daily planner is designed for a standard work day, and allows you to write and save entries for any or all of the 8 time slots available (9am - 5pm).
-
-#### The current hour is always highlighted and distinct from both upcoming and previous entries.
-
-#### Happy scheduling!
 
 ## <u>BEHIND THE SCENES</u>
 
-#### This assignment demonstrates setting and getting items from local storage, in order to both display that data as well as have it persist.
-
-<img src="./assets/home-storage.png">
+#### This assignment was both geared towards guiding us along to career readiness/competitiveness, as well as allowing us to utilize and demonstrate what we've learned since the last time we were assigned to update our portfolio webpage.
 
 <br>
 
 
 ## <u>REFLECTIONS</u>
 
-#### My commit comments detail my process, mostly a series of troubleshooting, learning, and relearning from all aspects of coding from logic, available methods, general syntax, scope, etc. 
+#### I started a bit late on this, as I misunderstood this to be a career service milestone assignment. In large part due to not noticing the homework folder (and therefore a homework assignment) during the second and final project week. When I heard mention of the assignment from a fellow student over break, it still wasn't until the weekend before it was due that I actually learned that it was in fact a homework assignment and that was indeed a folder containing specific instructions.
 
-#### In this assignment in particular a lot of solutions at first <marquee height="17" width="30">alluded</marquee> me, but obvously that in itself provides A LOT of learning opportunities (both in discovering new aspects and tools to approach and tackle common issues at hand as well as simply reinforcing what was learned in class). I thoroughly enjoy this assignment.
+#### Regardless of the last minute scramble, I did enjoy this one. I've learned that I need to be more vigilant in avoiding going down styling rabbit holes, especially on minutia, and to rely more on containers, grids, and or any other tools are available to make elements more innately responsive. I spent far too much time on little adjustments in terms of responsiveness, as well I needlessly addressed screen sizes that didn't need to be addressed.
