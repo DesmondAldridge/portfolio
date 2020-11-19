@@ -4,7 +4,7 @@
 
 ## Check out the deployed app <a href="https://desmondaldridge.github.io/portfolio/">here!</a>
 
-<img src="./assets/demo-gif.GIF">
+<img src="./assets/demo-gif.gif">
 
 ## <u>FEATURES</u>
 
